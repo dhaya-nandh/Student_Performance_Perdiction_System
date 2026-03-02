@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Performance Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Performance Prediction System</h2>
+<form class="content">
+    <label>Student Name</label>
+    <input type="text" id="name" placeholder="Enter student name">
+
+    <label>Marks (out of 100)</label>
+    <input type="number" id="marks" placeholder="Enter marks">
+
+    <label>Attendance (%)</label>
+    <input type="number" id="attendance" placeholder="Enter attendance">
+
+    <label>Study Hours per Day</label>
+    <input type="number" id="hours" placeholder="Enter study hours">
+    </form>
+
+    <button onclick="predict()">Predict Performance</button>
+
+    <div class="result" id="result"></div>
+</div>
+<table>
+    <form>
+        <th>Student Name</th>
+        <th>Marks</th>
+        <th>Attendance</th>
+        <th>Study hours</th>
+        <th>Performance</th>
+        <th>Action</th>
+    </form>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
