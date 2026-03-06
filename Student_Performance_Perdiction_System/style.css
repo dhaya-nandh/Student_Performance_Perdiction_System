@@ -1,0 +1,50 @@
+body{
+font-family:Arial;
+background:#eee;
+}
+
+header{
+background:purple;
+color:white;
+padding:10px;
+}
+
+nav{
+float:right;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+.container{
+width:300px;
+margin:50px auto;
+background:white;
+padding:20px;
+}
+
+input{
+width:100%;
+padding:8px;
+margin:5px 0;
+}
+
+button{
+width:100%;
+padding:10px;
+background:blue;
+color:white;
+border:none;
+}
+
+table{
+margin:50px auto;
+border-collapse:collapse;
+}
+
+th,td{
+padding:10px;
+}
